@@ -6,11 +6,72 @@
 <body>
 
 <body background="http://www.solidbackgrounds.com/images/2048x1536/2048x1536-dark-olive-green-solid-color-background.jpg"
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #a9cc41;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
 <head>
 <body>
   
 <h style="font-family:verdana;"><h style="text-align:center;"><h style="font-size:100px;">sara a. amirkiai</h>
   <p>I am currently a high school student learning how to code. I like cats, cooking and excercising. I dislike sitting for long amounts of time and vaccines. A fun fact about me is that I can put my leg behind my head."; </p>
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <img src="http://miriadna.com/desctopwalls/images/max/Summer-day-in-forest.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Welcome To My Portfolio</div>
+  </div>
+</div>
+
+</body>
+</html>
 
 
 
